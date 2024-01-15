@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin-top: 100px;
+    margin: 100px auto;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.leftcontainer{
+    width: 50%;
+    height: 300px;
+    border: 7px solid rgb(177, 171, 171);
+    margin-right: 50px;
+
+}
+.decrement{
+    margin-left: 10px;
+}
+/* .textcontainer{
+    width: 90%;
+} */
+.firstproduct{
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px; 
+    padding:10px;
+
+}
+.product-name{
+    margin-top: 5px;
+}
+.product-price{
+    margin-top: 5px; 
+}
+.firstproduct button{
+    width: 100px;
+    border-radius: 10%;
+    height: 30px;
+}
+
+
+.button {
+   
+    /* padding:8px; */
+    background-color: rgb(13, 113, 113);
+    border: 1px solid black;
+    border-radius: 25px 25px 25px 25px;
+    width: 60px;
+    height:20px
+    align-items: center; 
+}
+
+.button button {
+    width: 0px;
+    height: 0px; 
+    color: white;
+    
+}
+h2{
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(86, 83, 83);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* .rightcontainer h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+} */
+.quantity{
+    margin-left: 5px;
+    margin-right: auto;
+}
+.cart-list {
+    list-style-type: none;
+}
+
+.cart-list li {
+    margin-bottom: 10px;
+}
+
+.total {
+    margin-top: 20px;
+}
+/* Your existing CSS styles */
+
+/* ... */
+.rightcontainer {
+    width: 40%;
+    height: 300px;
+    border: 7px solid rgb(177, 171, 171);
+    position: relative; /* Add this to make it a positioning context */
+    padding: 0px 20px;
+}
+
+.total {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 20px; 
+    right: 20px;/* Adjust the distance from the left as needed */
+    font-size: x-large;
+    
+    color: white;
+    padding: 8px;
+    background-color: rgb(146, 142, 142);
+}
+
+.cart-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.cart-list li {
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    padding: 8px;
+   
+}
+
+
+
